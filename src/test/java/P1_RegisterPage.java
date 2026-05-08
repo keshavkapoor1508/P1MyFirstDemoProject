@@ -24,7 +24,9 @@ public class P1_RegisterPage {
 		driver.findElement(By.id("input-email")).sendKeys("kundan" + System.currentTimeMillis() + "@test.com");
 		driver.findElement(By.id("input-telephone")).sendKeys("9876543210");
 		driver.findElement(By.id("input-password")).sendKeys("Test@123");
-		
+
+		//Thread.sleep(5000);
+		//driver.findElement(By.id("newsletter-yes")).click();
 		
 		Thread.sleep(5000);
 		driver.findElement(By.id("newsletter-yes")).click();
