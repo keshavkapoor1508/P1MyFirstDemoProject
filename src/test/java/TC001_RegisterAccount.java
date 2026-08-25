@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class P1_RegisterPage {
+public class TC001_RegisterAccount {
 
 	@Test
 	public void verifyRegisteringWithMandatoryFields() throws InterruptedException {
