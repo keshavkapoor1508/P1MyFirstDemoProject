@@ -9,7 +9,7 @@
      
     <classes>
       <class name="TC001_RegisterAccount"/> 
-      <class name="TC002_LoginAccount.java"/>
+      <class name="TC002_LoginAccount"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
