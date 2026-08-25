@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 
 
-public class P2_LoginPage {
+public class TC002_LoginAccount {
 
     @Test
     public void verifyLoginWithValidCredentials() throws InterruptedException {
